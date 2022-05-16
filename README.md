@@ -431,6 +431,7 @@ After pausing you can resume scanning with `resume` method.
 ```javascript
 await scanner.resume()
 ```
+---
 
 ### Destroy
 If you don't need a scanner instance any more, you may want to destroy it.
