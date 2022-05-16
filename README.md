@@ -405,10 +405,11 @@ When scanning of MRZ data is successfully finished, the `result` object in the c
 
 **QR scanner result**
 
-When scanning of QR code data is successfully finished, the `result` object in the callback function will contain a single string with the contents of the QR code
+When scanning of QR code data is successfully finished, the `result` is a string with the contents of the QR code
 
 <details>
 <summary>Example: EU DCC qr code scanning result</summary>
+
 ```json
 "HC1:6BFOXNUTSMAHN-HP/RG:MOQ6RFP6E8-7P3XHV5U6R5RHH//7KHROF2YKE*P5-FJLF6CB9YPD.+IKYJIGK:H3J1D1I3-*TW CXBD86U+ CU.CI8CNEDXJCCECHIDQ*C:5D%QTZA3OR3JZIM-14$4UX4795L*KDYPWGO+9AXDOHCRBR7PTMLZR3L4ZIOML65TMS96L95OD6%28%%BPHQOGOC53.DPEC5L64HX6IAS3DS2980IQODPUHLO$GAHLW 70SO:GOLIROGO3T59YLLYP-HQLTQ9R0+L69/9-3AKI63ZM-.QMU6UW6.V99Q9E$BDZIR4J3-IJ7JE7J92KBQTFTCQ0531TOYK0NN-IF9Y42J05%5X-ANKE$JDVPLZ2KD0KJWGR-M1V7LU4-YG$JPSH2W7WVIDVEWCWVE-HJ06GZP-$4-9V4$V0IU8LL-RT3$9JRIE2BV0D+GM481BAWVX7/5D*QTD3RO+VC7R*M045LA20IXG62\n"
 ```
