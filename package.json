@@ -1,6 +1,6 @@
 {
   "name": "scanner-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@zamna/doc-scanner": "^1.0.6",
-
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
